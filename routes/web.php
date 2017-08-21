@@ -16,5 +16,5 @@ $app->get('/', function () use ($app) {
 });
 
 $app->get('/phpinfo', function () {
-    return phpinfo();
+    return (string)phpinfo();
 });
